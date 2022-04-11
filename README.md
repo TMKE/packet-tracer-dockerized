@@ -5,13 +5,9 @@ Clone this repository:
 ```bash
 git clone https://github.com/TMKE/packet-tracer-dockerized ~/packet-tracer-dockerized
 ```
-CD to the cloned repo:
-```bash
-cd ~/packet-tracer-dockerized
-```
 Build the image from the Dockerfile:
 ```bash
-sudo docker build -t packet-tracer7 .
+sudo docker build -t packet-tracer7 ~/packet-tracer-dockerized
 ```
 Run the image:
 ```bash
